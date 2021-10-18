@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGListenersSuite" >
+  <listeners>
+  <listener class-name="testNGPractice.Listeners"/>
+  </listeners>
+  
+  <test name="BasicLogin">
+  
+  <classes>
+  
+  <class name= "testNGPractice.BasicLogin">
+  <methods>
+  <include name="login"/>
+  </methods>
+  </class>
+  </classes>
+
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
